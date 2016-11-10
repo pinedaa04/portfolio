@@ -1,7 +1,39 @@
+.gradient {
+  height: 100%;
+  background-color: #00FFF9; /*For browsers that don't allow for a gradient*/
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#B6B9B8), to (#fff));
+  background-image: -webkit-linear-gradient(top, #00FFF9, #fff);
+  background-image: -moz-linear-gradient(top, #00FFF9, #fff);
+  background-image: -o-linear-gradient(top, #00FFF9, #fff);
+  background-image: -ms-linear-gradient(top, #00FFF9, #fff);
+  background-image: linear-gradient(to bottom, #00FFF9, #fff);
+} 
+
 header {
     height: 150px;
     background: none;
     margin: 0px auto;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.3rem;
+}
+nav a {
+  color: white;
 }
 
 ul {
@@ -9,7 +41,7 @@ ul {
     margin: 0, 40px;
     padding: 30;
     overflow: hidden;
-    background-color: #000
+    background-color: #000;
 }
 
 li  {
@@ -22,11 +54,12 @@ li a{
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Shrikhand', cursive;
     font-size: 20px;
 }
+
 li a:hover {
-    color: lightpink;
+    color: #F8B28B;
 }
 
 li a:active{
@@ -35,52 +68,77 @@ li a:active{
     
 h1{
     color: black;
-    font-family:  Georgia, serif;
+    font-family: 'Shrikhand', cursive;
     font-size: 30px;
-    font-weight: bold;
     text-align: center;
 }
+
 p{
     line-height: normal;
-    text-transform: uppercase;
-    text-align: right;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
     }
 
 h2 a{ 
     color: lightpink;
-    font-family: Georgia, serif;
+    font-family: 'Shrikhand', cursive;
     font-size: 25px;
-    font-weight: bold;
     text-decoration: none;
     text-align: left;
     }
-h2{ 
-color: lightpink;}
+
+h2, .about-me, .pictures { 
+  color: #F8B28B;
+}
+
 h2 a:hover{
-    color:deeppink;
+    color: #F8B0FF;
+}
+
+h2{
+  text-align: center;
+}
+
+.pictures{
+  font-family: 'Shrikhand', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+figcaption{
+  text-align: center;
 }
 
 h2 a:active{
-    color:darkturquoise;
+    color: #2200FF;
 } 
+
 hr{
   border-width: thick;
 }
 
 figure{
   border-style: double;
-  border-color:aliceblue;
-      
+  border-color:aliceblue; 
     }    
     
 figcaption{
     color: black;
-    font-family: Georgia, serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     vertical-align: text-bottom;
     text-indent: 20px;
     text-shadow: 1px 1px 0px #000000;
     }
+
 footer p{
       text-align: center;
     }
+.time{
+  font-family: 'Roboto Condensed', sans-serif;
+}
