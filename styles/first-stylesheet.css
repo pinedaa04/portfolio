@@ -143,6 +143,12 @@ figcaption{
     text-shadow: 1px 1px 0px #000000;
     }
 
+figcaption:hover{
+  transition: all 0.1s linear 0s;
+  font-size: 20px;
+}
+
+
 footer p{
       text-align: center;
     }
