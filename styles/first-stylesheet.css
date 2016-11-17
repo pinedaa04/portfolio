@@ -60,6 +60,9 @@ li a{
 
 li a:hover {
     color: #F8B28B;
+    font-size: 25px;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
 }
 
 li a:active{
