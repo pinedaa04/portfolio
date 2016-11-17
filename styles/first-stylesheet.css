@@ -111,10 +111,11 @@ img{
 
 article img:nth-child(even){
   border:2px solid black;
+  border-width: thick;
 }
-
 article img:nth-child(odd){
-  border:2px solid white;
+  border:2px solid yellow;
+  border-width: thick;
 }
 
 figcaption{
