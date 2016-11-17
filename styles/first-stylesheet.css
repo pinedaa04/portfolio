@@ -64,10 +64,6 @@ li a:hover {
     transition-duration: .2s;
     transition-timing-function: ease-out;
 }
-
-li a:active{
-    background-color: white;
-}
     
 h1{
     color: black;
@@ -111,6 +107,14 @@ h2{
 img{
     display: block;
     margin: auto;
+}
+
+article img:nth-child(even){
+  border:2px solid black;
+}
+
+article img:nth-child(odd){
+  border:2px solid white;
 }
 
 figcaption{
